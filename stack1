@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	stack<int> st;
+	st.push(10);
+	st.push(20);
+	st.push(30);
+  cout<<st.size();
+  st.pop();
+  st.empty();
+  st.top();
+	while(!st.empty()){
+	    cout<<st.top()<<" ";
+	    st.pop();
+	}
+}
